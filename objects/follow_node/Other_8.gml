@@ -597,20 +597,532 @@ if (room == room1)
 		}
 	}	
 }
+
 //
 //  room2 STARTS HERE
 //
 
-//if (room == room2)
-//{
+if (room == room2)
+{
+	if(pathStepper == "doctorStart")
+	{
+		pathStepper = choose("doctor1","doctor2")
+		if(pathStepper == "doctor1")
+		{
+			path_start(path94,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor2")
+		{
+			path_start(path95,2,path_action_stop,false);
+			exit;
+		}
+	}	
 	
+	if(pathStepper == "doctor1")
+	{
+		pathStepper = choose("doctor4","patient3")
+		if(pathStepper == "doctor4")
+		{
+			path_start(path97,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient3")
+		{
+			path_start(path62,2,path_action_stop,false);
+			exit;
+		}
+	}	
 	
+	if(pathStepper == "doctor2")
+	{
+		pathStepper = choose("doctor3","patient4")
+		if(pathStepper == "doctor3")
+		{
+			path_start(path96,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient4")
+		{
+			path_start(path65,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
+	if(pathStepper == "doctor4") 
+	{
+		pathStepper = "patient1"
+		path_start(path60,2,path_action_stop,false);
+		exit;
+	}
 	
+	if(pathStepper == "patient3")
+	{
+		pathStepper = choose("patient3A","patient3B")
+		if(pathStepper == "patient3A")
+		{
+			path_start(path63,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient3B")
+		{
+			path_start(path64,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
+	if(pathStepper == "doctor3")
+	{
+		pathStepper = "doctor4"
+		path_start(path97,2,path_action_stop,false);
+		exit;
+	}
 	
+	if(pathStepper == "patient4")
+	{
+		pathStepper = choose("doctor5","patient4A","patient4B")
+		if(pathStepper == "doctor5")
+		{
+			path_start(path98,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient4A")
+		{
+			path_start(path66,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient4B")
+		{
+			path_start(path67,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
+	if(pathStepper == "patient1")
+	{
+		pathStepper = choose("patient1A","patient1B")
+		if(pathStepper == "patient1A")
+		{
+			path_start(path69,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient1B")
+		{
+			path_start(path70,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
+	if(pathStepper == "patient3A")
+	{
+		pathStepper = choose("patient3Ddown","patient3C")
+		if(pathStepper == "patient3Ddown")
+		{
+			path_start(path72,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient3C")
+		{
+			path_start(path68,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
+	if(pathStepper == "patient3B")
+	{
+		pathStepper = "patient4"
+		path_start(path65,2,path_action_stop,false);
+		exit;	
+	}
 	
-//}
+	if(pathStepper == "doctor5")
+	{
+		pathStepper = choose("doctor6","patient3Ddown")
+		if(pathStepper == "doctor6")
+		{
+			path_start(path99,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient3Ddown")
+		{
+			path_start(path72,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient4A")
+	{
+		pathStepper = choose("doctor9","doctor16","patient7")
+		if(pathStepper == "doctor9")
+		{
+			path_start(path102,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "doctor16")
+		{
+			path_start(path109,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient7")
+		{
+			path_start(path80,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient4B")
+	{
+		pathStepper = choose("doctor9","patient7")
+		if(pathStepper == "doctor9")
+		{
+			path_start(path102,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient7")
+		{
+			path_start(path80,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient1A")
+	{
+		pathStepper = "patient1A5"
+		path_start(path76,2,path_action_stop,false);
+		exit;
+	}
+	
+	if(pathStepper == "patient1B")
+	{
+		pathStepper = choose("patient1Cup","patient5")
+		if(pathStepper == "patient1Cup")
+		{
+			path_start(path71,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient5")
+		{
+			path_start(path73,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient3Ddown")
+	{
+		pathStepper = choose("doctor7","patient5")
+		if(pathStepper == "doctor7")
+		{
+			path_start(path100,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient5")
+		{
+			path_start(path73,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient3C")
+	{
+		pathStepper = choose("patient4A","patient4B")
+		if(pathStepper == "patient4A")
+		{
+			path_start(path66,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient4B")
+		{
+			path_start(path67,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor6") 
+	{
+		pathStepper = choose("doctor4","patient3")  
+		if(pathStepper == "doctor4")
+		{
+			path_start(path97,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient3")
+		{
+			path_start(path62,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor9")
+	{
+		pathStepper = choose("doctor10","doctor11","patient5A")
+		if(pathStepper == "doctor10")
+		{
+			path_start(path103,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "doctor11")
+		{
+			path_start(path104,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient5A")
+		{
+			path_start(path74,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor16")
+	{
+		pathStepper = choose("doctor5","patient4A")
+		if(pathStepper == "doctor5")
+		{
+			path_start(path98,2,path_action_stop,false);   
+			exit;
+		}
+		if(pathStepper == "patient4A")
+		{
+			path_start(path66,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient7")
+	{
+		pathStepper = "doctor14"
+		path_start(path107,2,path_action_stop,false);
+		exit;
+	}
+	
+	if(pathStepper == "patient1A5")
+	{
+		pathStepper = choose("patient1A5A","patient1A5B")
+		if(pathStepper == "patient1A5A")
+		{
+			path_start(path77,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient1A5B")
+		{
+			path_start(path78,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient1Cup")
+	{
+		pathStepper = choose("patient3C","doctor6")
+		if(pathStepper == "patient3C")
+		{
+			path_start(path68,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "doctor6")
+		{
+			path_start(path99,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient5")
+	{
+		pathStepper = choose("patient5A","patient5B","doctor11")
+		if(pathStepper == "patient5A")
+		{
+			path_start(path74,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient5B")
+		{
+			path_start(path75,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor11")
+		{
+			path_start(path104,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor7")
+	{
+		pathStepper = choose("doctor8","patient1A")
+		if(pathStepper == "doctor8")
+		{
+			path_start(path101,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient1A")
+		{
+			path_start(path69,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor10")
+	{
+		pathStepper = choose("patient1Cup","doctor7")
+		if(pathStepper == "patient1Cup")
+		{
+			path_start(path71,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "doctor7")
+		{
+			path_start(path100,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor11")
+	{
+		pathStepper = choose("doctor12","patient1A5A")
+		if(pathStepper == "doctor12")
+		{
+			path_start(path105,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient1A5A")
+		{
+			path_start(path77,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient5A")
+	{
+		pathStepper = choose("patient6","doctor15")
+		if(pathStepper == "patient6")
+		{
+			path_start(path79,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "doctor15")
+		{
+			path_start(path108,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor14")
+	{
+		pathStepper = "doctor15"
+		path_start(path108,2,path_action_stop,false); 
+		exit;	
+	}
+	
+	if(pathStepper == "patient1A5A")
+	{
+		pathStepper = "patient6"
+		path_start(path79,2,path_action_stop,false); 
+		exit;	
+	}
+	
+	if(pathStepper == "patient1A5B")
+	{
+		pathStepper = choose("patient5A","patient5B","doctor10")
+		if(pathStepper == "patient5A")
+		{
+			path_start(path74,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient5B")
+		{
+			path_start(path75,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor10")
+		{
+			path_start(path103,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient5B")
+	{
+		pathStepper = choose("doctor16","patient7")
+		if(pathStepper == "doctor16")
+		{
+			path_start(path109,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient7")
+		{
+			path_start(path80,2,path_action_stop,false);
+			exit;
+		}
+	}
+
+	if(pathStepper == "doctor8")
+	{
+		pathStepper = "patient2";
+		path_start(path61,2,path_action_stop,false); 
+		exit;
+	}
+	
+	if(pathStepper == "doctor12")
+	{
+		pathStepper = "doctor13"
+		path_start(path106,2,path_action_stop,false); 
+		exit;
+	}
+	
+	if(pathStepper == "patient6")
+	{
+		pathStepper = "doctor17"
+		path_start(path79,2,path_action_stop,false); 
+		exit;	
+	}
+	
+	if(pathStepper == "doctor15")
+	{
+		pathStepper = choose("doctor12","patient1A5B")
+		if(pathStepper == "doctor12")
+		{
+			path_start(path105,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "patient1A5B")
+		{
+			path_start(path78,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "patient2")
+	{
+		pathStepper = "patient3";
+		path_start(path62,2,path_action_stop,false); 
+		exit;
+	}
+	
+	if(pathStepper == "doctor13")
+	{
+		pathStepper = choose("doctor8","patient1B")
+		if(pathStepper == "doctor8")
+		{
+			path_start(path101,2,path_action_stop,false); 
+			exit;
+		}
+		if(pathStepper == "patient1B")
+		{
+			path_start(path70,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor17")
+	{
+		pathStepper = choose("doctor16","doctor9")
+		if(pathStepper == "doctor16")
+		{
+			path_start(path109,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor9")
+		{
+			path_start(path102,2,path_action_stop,false);
+			exit;
+		}
+	}	
+}

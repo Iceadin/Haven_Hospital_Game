@@ -15,9 +15,9 @@ if (room == room1)
 	path_start(path118, 1, path_action_stop, false);
 }
 
-//if (room == room2)
-//{
-//	instance_create_depth(x + 0, y -30, 99, object_patient);
-//	pathStepper = "patient346";
-//	path_start(pathxxx, 1, path_action_stop, false);
-//}
+if (room == room2)
+{
+	instance_create_depth(x + 0, y -30, 99, object_patient);
+	pathStepper = "patientStart";
+	path_start(path58, 1, path_action_stop, false);
+}
