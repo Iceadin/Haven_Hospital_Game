@@ -49,7 +49,7 @@ for (var i  = 0; i < instance_number(object0); i+= 1)
 		nearby_creeps += 1;
 	}
 }
-if (nearby_creeps >= 4)
+if (nearby_creeps >= 5)
 {
 	hp -=1;
 	instance_create_layer(x,y-100,"UI",object_damageAlert);

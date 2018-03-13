@@ -4,5 +4,5 @@
 global.patientSpawnCounter = 0;
 global.patientsSaved = 0;
 global.killedPatients = 0;
-spawnCap = 2;
+spawnCap = 5;
 spawnStarted = false;
