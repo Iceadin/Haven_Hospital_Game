@@ -14,7 +14,9 @@
         "4740fe47-97f1-4ca2-842c-ee4ec0232392",
         "17febafa-9a62-45d8-acb4-9207b4245d53",
         "e08a08b2-a362-4554-ab39-7417c892d5b1",
-        "eb27cb21-4ca4-449f-9315-9761961c4719"
+        "eb27cb21-4ca4-449f-9315-9761961c4719",
+        "71c1ffd7-1e20-4066-a85b-4bab4d0fcc17",
+        "39a43d8e-d1ed-48be-bf23-6dbeb12f055f"
     ],
     "filterType": "GMObject",
     "folderName": "Misc",

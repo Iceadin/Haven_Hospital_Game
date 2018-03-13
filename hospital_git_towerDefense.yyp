@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "146531be-ee6a-487f-88c1-bba14339a8d5",
+            "Value": {
+                "id": "87e13621-f7f0-413b-bf85-c78c916a3ba1",
+                "resourcePath": "objects\\object_hunterDoctor\\object_hunterDoctor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "147eeb18-98d5-4207-b15d-0fd201272d84",
             "Value": {
                 "id": "09f7a2d1-9816-48a6-bbe0-6f0d9d87dc44",
@@ -275,6 +283,14 @@
             "Value": {
                 "id": "6691c189-0e2f-4b2a-9a32-ab9904bc107e",
                 "resourcePath": "objects\\object_TowerPickerBackground\\object_TowerPickerBackground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "18a301f4-4c40-4e73-b28b-24d373dd18bc",
+            "Value": {
+                "id": "95ea0fa7-874c-4aea-8514-71bfe7abe173",
+                "resourcePath": "objects\\object_exitSign\\object_exitSign.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -396,6 +412,14 @@
                 "id": "6bdc3a65-0232-48e8-b701-a70ed830d5ab",
                 "resourcePath": "paths\\path120\\path120.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "25eba958-7e63-4003-aa78-ca6a08d08ae5",
+            "Value": {
+                "id": "2be7bddc-0ddc-4386-a6f9-a9faad848d9e",
+                "resourcePath": "rooms\\room_youLosePatientsDied\\room_youLosePatientsDied.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -596,6 +620,14 @@
                 "id": "d7507c0e-7d0d-44d5-864d-23eb66e5db9b",
                 "resourcePath": "paths\\path100\\path100.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "39a43d8e-d1ed-48be-bf23-6dbeb12f055f",
+            "Value": {
+                "id": "347da4fa-c61e-40c1-84cf-79267e2b1c75",
+                "resourcePath": "objects\\object_PatientsDied\\object_PatientsDied.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -983,6 +1015,14 @@
             }
         },
         {
+            "Key": "59b615ee-2943-4214-ab89-87f58f6ae6db",
+            "Value": {
+                "id": "c7073c2e-018f-48e6-a4fa-8ab6796e1c65",
+                "resourcePath": "sounds\\sound_summonObj\\sound_summonObj.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5c7a57ce-7b83-482d-8262-c314208778a8",
             "Value": {
                 "id": "651ac333-62ee-42ea-948b-77968eee254b",
@@ -1231,6 +1271,14 @@
             }
         },
         {
+            "Key": "71c1ffd7-1e20-4066-a85b-4bab4d0fcc17",
+            "Value": {
+                "id": "5f90777a-eae1-4560-a79d-abc05d613673",
+                "resourcePath": "objects\\object_janetDied\\object_janetDied.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71c417ea-1dc4-40c8-ad34-14150d1500d8",
             "Value": {
                 "id": "093bc38e-d967-40d1-82d7-1951895a745d",
@@ -1359,6 +1407,14 @@
             }
         },
         {
+            "Key": "7f3f5b5e-006d-4c56-bf22-2d7dcf7cf895",
+            "Value": {
+                "id": "4cae8751-b8c4-4236-b263-33cdbee05bbb",
+                "resourcePath": "sprites\\sprite_janetDied\\sprite_janetDied.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81dbbb02-fb0e-4dbe-b96a-52ecbfb7252a",
             "Value": {
                 "id": "68373081-f8a8-43e1-a8aa-e29e34325f3b",
@@ -1383,11 +1439,27 @@
             }
         },
         {
+            "Key": "84d38d37-1c27-4537-923e-3ffe2f01abd8",
+            "Value": {
+                "id": "d3387b8a-9e11-4e6d-9150-4dd820825ce9",
+                "resourcePath": "sprites\\sprite_TooManyPatientsDied\\sprite_TooManyPatientsDied.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85697645-631a-4ad0-8d75-78be779cb5f2",
             "Value": {
                 "id": "28ae5f31-6de2-474a-945b-f3e41995539b",
                 "resourcePath": "paths\\path66\\path66.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "85b50a41-edf2-445b-a7bf-3229abf9c0a1",
+            "Value": {
+                "id": "7b8bef4a-4523-4a5f-bfcb-ffc8842eea6d",
+                "resourcePath": "sprites\\sprite_exitSign\\sprite_exitSign.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1411,6 +1483,14 @@
             "Value": {
                 "id": "4d1c1f61-6716-410b-a668-c738bfbaa37c",
                 "resourcePath": "sprites\\Menu_Text\\Menu_Text.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "87793ca3-6cc1-44c3-b0b6-dcaebb63502f",
+            "Value": {
+                "id": "c62ea97d-d399-4bac-bae4-f2072656888c",
+                "resourcePath": "sprites\\sprite_hunterDoctorWalk\\sprite_hunterDoctorWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1681,7 +1761,7 @@
         {
             "Key": "a8c9606e-17f5-401b-8576-f804c121e270",
             "Value": {
-                "id": "84cb82cf-badd-4670-a86b-aad4410ab3c0",
+                "id": "9541fefa-0fb6-4ae0-b9dc-e9598c7020c4",
                 "resourcePath": "sounds\\sound_projectileFire\\sound_projectileFire.yy",
                 "resourceType": "GMSound"
             }
@@ -1852,6 +1932,14 @@
                 "id": "c2d7372c-1bb5-49e6-a801-d1149e7f3199",
                 "resourcePath": "views\\b84133a6-86f5-4b70-8b34-e79479b9d248.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9067bc5-bc55-45a6-a3ee-0f2ae8437530",
+            "Value": {
+                "id": "d2324f2d-bf33-48b9-951c-b6b6d8947454",
+                "resourcePath": "objects\\object_hunterDoctorSpawner\\object_hunterDoctorSpawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2090,7 +2178,7 @@
             "Key": "d6584b73-b072-4440-adbd-81f774504da1",
             "Value": {
                 "id": "8621aea8-894b-4204-bac1-f406cce9c6c9",
-                "resourcePath": "rooms\\room_youLose\\room_youLose.yy",
+                "resourcePath": "rooms\\room_youLoseJanetDied\\room_youLoseJanetDied.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2295,14 +2383,6 @@
             }
         },
         {
-            "Key": "ebac1391-72d0-4813-b816-572048aca946",
-            "Value": {
-                "id": "83988e67-19b6-40a4-9a82-c46e7fda013b",
-                "resourcePath": "sounds\\sound_summonObj\\sound_summonObj.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "ed069449-8fb8-44e1-b910-e4f572506a7d",
             "Value": {
                 "id": "f56f2c1d-a994-4ed3-abe3-6ba2db661a76",
@@ -2396,6 +2476,14 @@
                 "id": "6cd8d6fe-aad9-4611-9bfa-391f21ed5052",
                 "resourcePath": "paths\\path126\\path126.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "f7b379a9-d9da-43cf-9fbb-0d209d1523ad",
+            "Value": {
+                "id": "109cc0d7-e094-4e54-b00a-8a1eda6b5641",
+                "resourcePath": "sprites\\sprite_patient01\\sprite_patient01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

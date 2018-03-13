@@ -14,11 +14,17 @@ for (var i  = 0; i < instance_number(object0); i+= 1)
 		
 	}
 }
+
 if(inRange == false){
 closestObj = undefined;
 }
+if(closestObj == undefined && distance_to_object(object_hunterDoctor)<120){
+	closestObj = object_hunterDoctor;
+}
 if(closestObj != undefined){
 canShoot = true;
+
+
 }
 if(closestObj == undefined){
 canShoot = false;	

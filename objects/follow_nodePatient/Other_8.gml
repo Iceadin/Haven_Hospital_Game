@@ -92,7 +92,7 @@ if (room == room0)
 		}
 	}
 	if(pathStepper == "K"){
-		if(inst_towerEnd.triggered == true){
+		if(inst_towerK.triggered == true){
 			pathStepper = "L";
 			path_start(pathL,1,path_action_stop,false);
 			exit;
